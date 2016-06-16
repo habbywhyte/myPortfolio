@@ -65,5 +65,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 4, ../sass/style.scss */
 body {
-  color: #333;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.section {
+  height: 350px;
+}
+
+#portfolioPage {
+  background-color: #f73d28;
+
 }
